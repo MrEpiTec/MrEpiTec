@@ -124,7 +124,7 @@ a {
     
 .badge--small {
     font-size: 1.6rem;
-    padding: 0.5 1.5rem;
+    padding: 0.5rem 1.5rem;
 }
 
 
@@ -541,7 +541,7 @@ a {
 
 /*Callouts*/
 .callout {
-    margin: 0 auto;
+    margin: -8rem auto;
     max-width: 580px;
     padding: 4rem;
     border-radius: 5px;
@@ -824,6 +824,7 @@ a {
 /*Footer*/
 .footer {
     background: #232323;
+    padding-top: 10rem;
 }
 
 .footer a {
