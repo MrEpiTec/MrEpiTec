@@ -9,7 +9,6 @@
     />
     <meta property="og:title" content="MrEpiTec" />
     <meta property="og:type" content="website" />
-    <link rel="stylesheet" href="/CSS/normalize.css" />
     <link rel="stylesheet" href="/CSS/Styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,7 +21,9 @@
   <body>
     <header>
       <nav class="nav collapsible">
-        <a class="nav__brand" href="/"><img src="/Images/logo.svg" alt="" /></a>
+        <a aria-label="MrEpiTec" class="nav__brand" href="/"
+          ><img src="/Images/logo.svg" alt=""
+        /></a>
         <svg class="icon icon--white nav__toggler">
           <use href="/images/sprite.svg#menu"></use>
         </svg>
@@ -70,6 +71,7 @@
           Search
         </button>
         <input
+          aria-label="domain"
           type="text"
           class="input"
           placeholder="Enter domain name here..."
